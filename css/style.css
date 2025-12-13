@@ -191,6 +191,8 @@ ul {
 .nav-links {
     display: flex;
     gap: 40px;
+    align-items: center;
+    /* Fix alignment of links and button */
 }
 
 .nav-links a {
@@ -206,6 +208,16 @@ ul {
 .nav-links a.active {
     color: var(--color-accent);
     font-weight: 700;
+}
+
+.nav-links .btn-primary {
+    color: var(--color-white);
+    padding: 10px 24px;
+    /* Slightly smaller in nav */
+}
+
+.nav-links .btn-primary:hover {
+    color: var(--color-white);
 }
 
 /* Hero Section */
@@ -420,7 +432,7 @@ ul {
 .cta-box {
     background: var(--color-primary);
     border-radius: var(--radius-lg);
-    padding: 80px;
+    padding: 55px;
     text-align: center;
     color: var(--color-white);
     position: relative;
@@ -428,7 +440,7 @@ ul {
 }
 
 .cta-box h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-bottom: 20px;
 }
 
@@ -823,6 +835,42 @@ footer {
         gap: 40px;
     }
 
+    /* Reorder images to top on mobile */
+    .hero-image,
+    .feature-image,
+    .service-image {
+        order: -1;
+    }
+
+    /* Mobile Optimization */
+    #hero {
+        padding: 120px 0 60px;
+        /* Reduced padding */
+    }
+
+    .section-title {
+        font-size: 2rem;
+        /* Reduced font size */
+        margin-bottom: 30px;
+    }
+
+    .hero-text h1 {
+        font-size: 2.5rem;
+        /* Reduced font size */
+    }
+
+    .hero-text p {
+        font-size: 1.1rem;
+    }
+
+    #features,
+    #services,
+    #testimonials,
+    .service-detail {
+        padding: 60px 0;
+        /* Reduced padding */
+    }
+
     .contact-wrapper {
         grid-template-columns: 1fr;
     }
@@ -863,6 +911,12 @@ footer {
         font-size: 1.2rem;
         display: block;
         padding: 10px;
+    }
+
+    .nav-links .btn-primary {
+        margin-top: 20px;
+        display: inline-block;
+        width: auto;
     }
 
     /* Hamburger Animation */
