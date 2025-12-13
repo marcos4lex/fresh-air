@@ -113,6 +113,7 @@ ul {
 /* Buttons */
 .btn-primary {
     background: var(--gradient-primary);
+    background-size: 200% auto;
     color: var(--color-white);
     padding: 14px 32px;
     border-radius: 50px;
@@ -122,11 +123,12 @@ ul {
     cursor: pointer;
     display: inline-block;
     box-shadow: 0 4px 15px rgba(0, 114, 255, 0.3);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: all 0.5s ease;
 }
 
 .btn-primary:hover {
-    transform: translateY(-2px);
+    background-position: right center;
+    transform: scale(1.05);
     box-shadow: 0 8px 25px rgba(0, 114, 255, 0.4);
 }
 
