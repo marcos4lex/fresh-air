@@ -4,7 +4,7 @@
     /* Dark Blue for Headings */
     --color-secondary: #00D4FF;
     /* Bright Blue Accent */
-    --color-accent: #635BFF;
+    --color-accent: #0072ff;
     /* Purple Accent */
     --color-text: #425466;
     /* Grey for Body Text */
@@ -15,8 +15,8 @@
     --color-white: #FFFFFF;
 
     /* Gradients */
-    --gradient-primary: linear-gradient(135deg, #635BFF 0%, #00D4FF 100%);
-    --gradient-text: linear-gradient(135deg, #0A2540 0%, #635BFF 100%);
+    --gradient-primary: linear-gradient(135deg, #0072ff 0%, #00c6ff 100%);
+    --gradient-text: linear-gradient(135deg, #0A2540 0%, #0072ff 100%);
 
     /* Typography */
     --font-main: 'Outfit', sans-serif;
@@ -121,13 +121,13 @@ ul {
     border: none;
     cursor: pointer;
     display: inline-block;
-    box-shadow: 0 4px 15px rgba(99, 91, 255, 0.3);
+    box-shadow: 0 4px 15px rgba(0, 114, 255, 0.3);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .btn-primary:hover {
     transform: translateY(-2px);
-    box-shadow: 0 8px 25px rgba(99, 91, 255, 0.4);
+    box-shadow: 0 8px 25px rgba(0, 114, 255, 0.4);
 }
 
 .btn-outline {
@@ -137,14 +137,14 @@ ul {
     border-radius: 50px;
     font-weight: 600;
     font-size: 1rem;
-    border: 2px solid rgba(99, 91, 255, 0.2);
+    border: 2px solid rgba(0, 114, 255, 0.2);
     cursor: pointer;
     display: inline-block;
 }
 
 .btn-outline:hover {
     border-color: var(--color-accent);
-    background: rgba(99, 91, 255, 0.05);
+    background: rgba(0, 114, 255, 0.05);
 }
 
 /* Header */
