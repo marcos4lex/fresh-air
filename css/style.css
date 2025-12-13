@@ -842,6 +842,12 @@ footer {
         order: -1;
     }
 
+    /* Reduce button size on mobile */
+    .btn-primary,
+    .btn-outline {
+        padding: 10px 30px;
+    }
+
     /* Mobile Optimization */
     #hero {
         padding: 120px 0 60px;
