@@ -2,7 +2,7 @@
     /* Color Palette - Light Theme */
     --color-primary: #0A2540;
     /* Dark Blue for Headings */
-    --color-secondary: #00D4FF;
+    --color-secondary: #00cbf3;
     /* Bright Blue Accent */
     --color-accent: #0072ff;
     /* Purple Accent */
@@ -538,13 +538,13 @@ footer {
 
 /* Page Header */
 .page-header {
-    padding: 180px 0 80px;
+    padding: 165px 0 65px;
     background: var(--color-bg-alt);
     text-align: center;
 }
 
 .page-header h1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
     margin-bottom: 15px;
     color: var(--color-primary);
     font-weight: 800;
@@ -875,6 +875,10 @@ footer {
     .service-detail {
         padding: 60px 0;
         /* Reduced padding */
+    }
+
+    .page-header {
+        padding: 155px 0 55px;
     }
 
     .contact-wrapper {
